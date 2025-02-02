@@ -1,0 +1,13 @@
+// Description:
+//    Test de base pour le main
+//
+// Resultats:
+//    4.3
+// 
+// Historique:
+//    cree le 01/01/2025
+
+{
+    float z = 4.3;
+    printlnx(z);
+}

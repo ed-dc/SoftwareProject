@@ -1,0 +1,21 @@
+./src/test/deca/syntax/valid/classique/test-valid-6.deca : Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+Internal compiler error while compiling file /home/usr434546/Documents/Ensimag/2A/gl14/./src/test/deca/syntax/valid/classique/test-valid-6.deca, sorry.
+
+./src/test/deca/syntax/valid/classique/test-valid-8.deca : Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+/home/usr434546/Documents/Ensimag/2A/gl14/./src/test/deca/syntax/valid/classique/test-valid-8.deca:13:14: no viable alternative at input 'firstClass('
+
+./src/test/deca/syntax/valid/classique/test-valid-7.deca : Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+/home/usr434546/Documents/Ensimag/2A/gl14/./src/test/deca/syntax/valid/classique/test-valid-7.deca:13:14: no viable alternative at input 'firstClass('
+
+./src/test/deca/syntax/valid/classique/test-valid-4.deca : Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+Internal compiler error while compiling file /home/usr434546/Documents/Ensimag/2A/gl14/./src/test/deca/syntax/valid/classique/test-valid-4.deca, sorry.
+
+./src/test/deca/syntax/valid/classique/test-valid-3.deca : Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+Internal compiler error while compiling file /home/usr434546/Documents/Ensimag/2A/gl14/./src/test/deca/syntax/valid/classique/test-valid-3.deca, sorry.
+
+./src/test/deca/codegen/valid/provided/exdoc.deca : Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+Internal compiler error while compiling file /home/usr434546/Documents/Ensimag/2A/gl14/./src/test/deca/codegen/valid/provided/exdoc.deca, sorry.
+
+./src/test/deca/codegen/valid/provided/exmathdoc.deca : Picked up _JAVA_OPTIONS: -Dawt.useSystemAAFontSettings=on -Dswing.aatext=true
+/home/usr434546/Documents/Ensimag/2A/gl14/target/classes/include/Math.decah:5:10: no viable alternative at input 'floatsin'
+

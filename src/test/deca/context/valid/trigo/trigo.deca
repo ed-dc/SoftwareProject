@@ -1,0 +1,17 @@
+// Description:
+//    Programme minimaliste sur les fonctions de trigonometrie
+//
+// Resultats:
+//    
+//
+// Historique:
+//    cree le 01/01/2025
+
+{
+        cos(0);
+        sin(-1);
+        tan(0);
+        asin(0);
+        acos(0);
+        atan(0);
+}

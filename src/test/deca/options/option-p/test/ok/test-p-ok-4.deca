@@ -1,0 +1,20 @@
+// Description:
+//    Programme pour le test de l'option -p : unary not
+//
+// Resultats: true
+//    
+//
+// Historique:
+//    cree le 11/01/2025
+
+{
+    int a = readInt();
+    int b = 2;
+    boolean c;
+    while ( a < b ) {
+        c = !c;
+        a = a + 1;
+    }
+    print(c);
+
+}

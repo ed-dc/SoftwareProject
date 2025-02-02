@@ -1,0 +1,15 @@
+// Description:
+//    Programme minimaliste initialisant une variable avec un +
+//
+// Resultats:
+//    Hello
+//
+// Historique:
+//    cree le 01/01/2025
+
+{
+    string a = "Hello les beaux gosses";
+    string b;
+    b = a;
+    println(b);
+}

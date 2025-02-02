@@ -1,0 +1,15 @@
+// Description:
+//    Programme minimaliste utilisant println sur un int en hexa.
+//
+// Resultats:
+//    true
+//    false
+//   
+//
+// Historique:
+//    cree le 01/01/2025
+
+{
+        println(true);
+        println(false);
+}

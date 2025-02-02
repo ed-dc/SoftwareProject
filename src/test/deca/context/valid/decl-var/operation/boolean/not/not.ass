@@ -1,0 +1,52 @@
+; start main program
+; Main program
+; Beginning of main instructions:
+	LOAD #1, R2
+	STORE R2, 3(GB)
+	LOAD #0, R2
+	STORE R2, 4(GB)
+	LOAD #0, R1
+	CMP #0, R1
+	BNE cETrue0
+	LOAD #1, R1
+	CMP #0, R1
+	BNE cETrue0
+	LOAD #0, R1
+	STORE R1, 5(GB)
+	BRA cEFin0
+cETrue0:
+	LOAD #1, R1
+	STORE R1, 5(GB)
+cEFin0:
+	LOAD 3(GB), R1
+	CMP #0, R1
+	BNE aTrue
+aFalse:
+	WSTR "false"
+	BRA aFin
+aTrue:
+	WSTR "true"
+aFin:
+	WNL
+	LOAD 4(GB), R1
+	CMP #0, R1
+	BNE bTrue
+bFalse:
+	WSTR "false"
+	BRA bFin
+bTrue:
+	WSTR "true"
+bFin:
+	WNL
+	LOAD 5(GB), R1
+	CMP #0, R1
+	BNE cTrue
+cFalse:
+	WSTR "false"
+	BRA cFin
+cTrue:
+	WSTR "true"
+cFin:
+	WNL
+	HALT
+; end main program

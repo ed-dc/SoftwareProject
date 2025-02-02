@@ -1,0 +1,151 @@
+; start main program
+; Main program
+; Beginning of main instructions:
+	LOAD #0, R1
+	CMP #0, R1
+	BNE iETrue4
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ iEFalse6
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ iEFalse6
+	STORE R1, 3(GB)
+	BRA iEFin6
+iEFalse6:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+iEFin6:
+	BEQ iEFalse5
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ iEFalse5
+	STORE R1, 3(GB)
+	BRA iEFin5
+iEFalse5:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+iEFin5:
+	BNE iETrue4
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA iEFin4
+iETrue4:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+iEFin4:
+	BNE iETrue3
+	LOAD #0, R1
+	CMP #0, R1
+	BNE iETrue3
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA iEFin3
+iETrue3:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+iEFin3:
+	BNE iETrue2
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ iEFalse7
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ iEFalse7
+	STORE R1, 3(GB)
+	BRA iEFin7
+iEFalse7:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+iEFin7:
+	BNE iETrue2
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA iEFin2
+iETrue2:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+iEFin2:
+	BNE iETrue1
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ iEFalse10
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ iEFalse10
+	STORE R1, 3(GB)
+	BRA iEFin10
+iEFalse10:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+iEFin10:
+	BEQ iEFalse9
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ iEFalse9
+	STORE R1, 3(GB)
+	BRA iEFin9
+iEFalse9:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+iEFin9:
+	BEQ iEFalse8
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ iEFalse8
+	STORE R1, 3(GB)
+	BRA iEFin8
+iEFalse8:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+iEFin8:
+	BNE iETrue1
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA iEFin1
+iETrue1:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+iEFin1:
+	BNE iETrue0
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ iEFalse12
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ iEFalse12
+	STORE R1, 3(GB)
+	BRA iEFin12
+iEFalse12:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+iEFin12:
+	BEQ iEFalse11
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ iEFalse11
+	STORE R1, 3(GB)
+	BRA iEFin11
+iEFalse11:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+iEFin11:
+	BNE iETrue0
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA iEFin0
+iETrue0:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+iEFin0:
+	LOAD 3(GB), R1
+	CMP #0, R1
+	BNE iTrue
+iFalse:
+	WSTR "false"
+	BRA iFin
+iTrue:
+	WSTR "true"
+iFin:
+	HALT
+; end main program

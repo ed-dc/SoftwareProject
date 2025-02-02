@@ -1,0 +1,15 @@
+// Description:
+//    champs et methodes simples
+//
+// Resultats:
+//    2
+//
+// Historique:
+//    cree le 01/01/2025
+
+// Un exemple de programme Deca
+
+{
+    int x  = readInt();
+    println(x);
+}

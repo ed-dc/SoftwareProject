@@ -1,0 +1,16 @@
+// Description: 
+// Test de programme lexicalement correct automatisé
+// 
+// Type: if
+//10
+
+// Historique: 
+// Mon Jan  6 21:25:48 2025
+
+{
+    boolean a;
+    a = true;
+    if (a) {
+        print(10);
+    }
+}

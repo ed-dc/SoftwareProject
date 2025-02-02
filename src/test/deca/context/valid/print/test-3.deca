@@ -1,0 +1,17 @@
+// Description:
+//    Test de base pour le main
+//
+// Resultats:
+//    Rien ne s'affiche
+// 
+// Historique:
+//    cree le 01/01/2025
+
+{
+    int y;
+    int x;
+    int z = 10;
+    x = 6;
+    y= 9;
+    println(z);
+}

@@ -1,0 +1,35 @@
+// Description: 
+// Test de programme lexicalement correct automatisé
+// 
+// Type: if
+//10
+
+// Historique: 
+// Mon Jan  6 21:25:48 2025
+
+{
+    boolean a, b, c, d;
+    a = true;
+    b = true;
+    c = false;
+    d = false;
+    if (a) {
+        print(10);
+    }
+    else if (b)
+    {
+        print(1);
+    }
+    else if (c)
+    {
+        print(2);
+    }
+    else if (d)
+    {
+        print(3);
+    }
+    else
+    {
+        print(4);
+    }
+}

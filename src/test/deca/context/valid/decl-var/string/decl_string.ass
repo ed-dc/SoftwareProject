@@ -1,0 +1,35 @@
+; start main program
+; Main program
+; Beginning of main instructions:
+	NEW #10, R2
+	LOAD #9, R1
+	STORE R1, 0(R2)
+	LOAD #83, R1
+	STORE R1, 1(R2)
+
+	LOAD #97, R1
+	STORE R1, 2(R2)
+
+	LOAD #108, R1
+	STORE R1, 3(R2)
+
+	LOAD #117, R1
+	STORE R1, 4(R2)
+
+	LOAD #116, R1
+	STORE R1, 5(R2)
+
+	LOAD #32, R1
+	STORE R1, 6(R2)
+
+	LOAD #116, R1
+	STORE R1, 7(R2)
+
+	LOAD #111, R1
+	STORE R1, 8(R2)
+
+	LOAD #105, R1
+	STORE R1, 9(R2)
+
+	HALT
+; end main program

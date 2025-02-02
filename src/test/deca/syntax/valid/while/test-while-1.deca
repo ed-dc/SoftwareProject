@@ -1,0 +1,26 @@
+// Description: 
+// Test de programme lexicalement correct automatisé
+// 
+// Type: while
+//10
+
+// Historique: 
+// Mon Jan  6 21:25:48 2025
+
+{
+    boolean a;
+    boolean b = true;
+    a = true;
+    while (a) 
+    {
+        a = false;
+        print(a);
+        if (b){
+            a = true;
+            b = false;
+        }
+        else{
+            a = false;
+        }
+    }
+}

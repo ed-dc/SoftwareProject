@@ -1,0 +1,19 @@
+// Description:
+//    Programme minimaliste initialisant une variable avec un +
+//
+// Resultats: false, true, true
+//    false
+//    true
+//    1
+//
+// Historique:
+//    cree le 01/01/2025
+
+{
+    int c = 4;
+    boolean a = 5.2 <= 0.2;
+    boolean b = 4 <= c;
+    println(a);
+    println(b);
+    println(2 <= 3);
+}

@@ -1,0 +1,12 @@
+; start main program
+; Main program
+; Beginning of main instructions:
+	LOAD #26, R2
+	STORE R2, 3(GB)
+	LOAD 3(GB), R2
+	REM #5, R2
+	STORE R2, 4(GB)
+	LOAD 4(GB), R1
+	WINT
+	HALT
+; end main program

@@ -1,0 +1,14 @@
+// Description: 
+// Test de programme lexicalement correct automatisé
+// 
+// Type: readInt
+//
+
+// Historique: 
+// Tue Jan  6 10:25:48 2025
+
+{
+    float x;
+    x = readFloat();
+    print(x);
+}

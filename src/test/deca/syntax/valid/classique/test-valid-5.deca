@@ -1,0 +1,21 @@
+// Description:
+//    Programme de tests sur les conditions (if et else)
+//
+// Resultats:
+//    Youpii
+//
+// Historique:
+//    cree le 01/01/2025
+
+{
+    int x = 2;
+    
+    if(x > 1)
+    {
+        println("Youpii");
+    }
+    else
+    {
+        println("Voyouu !");
+    }
+}

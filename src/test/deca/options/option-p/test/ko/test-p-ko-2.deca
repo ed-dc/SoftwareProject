@@ -1,0 +1,14 @@
+// Description:
+//    Programme pour le test de l'option -p : ici faux
+//
+// Resultats:
+//    
+//
+// Historique:
+//    cree le 11/01/2025
+
+{
+    int a b; // erreur de syntaxe nous sommes cense mettre une virgule
+    b = a * 2 + 4;
+    print(b);
+}

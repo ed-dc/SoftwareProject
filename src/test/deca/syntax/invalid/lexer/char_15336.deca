@@ -1,0 +1,13 @@
+
+    // Description:
+    //    tests de programme lexicalement Incorrect.
+    //
+    // Resultats:
+    //    Ligne 12 : Erreur de syntaxe. 
+    //
+    // Historique:
+    //    cree le 09/01/2025
+
+{
+	print(㯨)
+}

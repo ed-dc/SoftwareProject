@@ -1,0 +1,14 @@
+/* Description:
+//    tests de programme lexicalement Incorrect.
+//
+// Resultats:
+//    Ligne 14 : Erreur de syntaxe. 
+//    le / n'est pas reconnu comme un caractère valide.
+//
+// Historique:
+//    cree le 01/01/2025
+
+idf _autre_idf
+{
+}
+/ un commentaire qui ne fonctionne pas normalement

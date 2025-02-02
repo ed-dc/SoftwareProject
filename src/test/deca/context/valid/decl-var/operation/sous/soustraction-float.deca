@@ -1,0 +1,13 @@
+// Description:
+//    Programme minimaliste initialisant une variable avec un +
+//
+// Resultats:
+//    10
+//
+// Historique:
+//    cree le 01/01/2025
+
+{
+        float b = 10.5 - 2.1;
+        println(b);
+}

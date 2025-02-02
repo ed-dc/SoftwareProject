@@ -1,0 +1,87 @@
+; start main program
+; Main program
+; Beginning of main instructions:
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ aEFalse0
+<<<<<<< HEAD
+	STORE R1, 3(GB)
+	BRA aEFin0
+	LOAD #0, R1
+=======
+	LOAD #1, R1
+>>>>>>> 55b145592a47899d6ac6e323031532915dfff246
+	CMP #0, R1
+	BEQ aEFalse0
+	STORE R1, 3(GB)
+	BRA aEFin0
+aEFalse0:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+aEFin0:
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ bEFalse1
+<<<<<<< HEAD
+	STORE R1, 4(GB)
+	BRA bEFin1
+=======
+>>>>>>> 55b145592a47899d6ac6e323031532915dfff246
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ bEFalse1
+	STORE R1, 4(GB)
+	BRA bEFin1
+bEFalse1:
+	LOAD #0, R1
+	STORE R1, 4(GB)
+bEFin1:
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ cEFalse2
+<<<<<<< HEAD
+	STORE R1, 5(GB)
+	BRA cEFin2
+=======
+>>>>>>> 55b145592a47899d6ac6e323031532915dfff246
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ cEFalse2
+	STORE R1, 5(GB)
+	BRA cEFin2
+cEFalse2:
+	LOAD #0, R1
+	STORE R1, 5(GB)
+cEFin2:
+	LOAD 3(GB), R1
+	CMP #0, R1
+	BNE aTrue
+aFalse:
+	WSTR "false"
+	BRA aFin
+aTrue:
+	WSTR "true"
+aFin:
+	WNL
+	LOAD 4(GB), R1
+	CMP #0, R1
+	BNE bTrue
+bFalse:
+	WSTR "false"
+	BRA bFin
+bTrue:
+	WSTR "true"
+bFin:
+	WNL
+	LOAD 5(GB), R1
+	CMP #0, R1
+	BNE cTrue
+cFalse:
+	WSTR "false"
+	BRA cFin
+cTrue:
+	WSTR "true"
+cFin:
+	WNL
+	HALT
+; end main program

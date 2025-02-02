@@ -1,0 +1,13 @@
+// Description:
+//    Programme minimaliste initialisant une variable et la modifiant.
+//
+// Resultats: 
+//    
+//
+// Historique:
+//    cree le 01/01/2025
+
+{
+    int a = readInt();
+    println(a);
+}

@@ -1,0 +1,59 @@
+; start main program
+; Main program
+; Beginning of main instructions:
+	LOAD #4, R2
+	STORE R2, 3(GB)
+	LOAD #0x1.4cccccp2, R2
+	LOAD R2, R1
+	CMP #0x1.99999ap-3, R1
+	BLE LowerTrue0
+	LOAD #0, R2
+	BRA LowerFin0
+LowerTrue0:
+	LOAD #1, R2
+LowerFin0:
+	STORE R2, 4(GB)
+	LOAD #4, R2
+	LOAD R2, R1
+	CMP 3(GB), R1
+	BLE LowerTrue1
+	LOAD #0, R2
+	BRA LowerFin1
+LowerTrue1:
+	LOAD #1, R2
+LowerFin1:
+	STORE R2, 5(GB)
+	LOAD 4(GB), R1
+	CMP #0, R1
+	BNE aTrue
+aFalse:
+	WSTR "false"
+	BRA aFin
+aTrue:
+	WSTR "true"
+aFin:
+	WNL
+	LOAD 5(GB), R1
+	CMP #0, R1
+	BNE bTrue
+bFalse:
+	WSTR "false"
+	BRA bFin
+bTrue:
+	WSTR "true"
+bFin:
+	WNL
+	LOAD #2, R2
+	LOAD R2, R1
+	CMP #3, R1
+	BLE LowerTrue2
+	LOAD #0, R2
+	BRA LowerFin2
+LowerTrue2:
+	LOAD #1, R2
+LowerFin2:
+	LOAD R2, R1
+	WINT
+	WNL
+	HALT
+; end main program

@@ -1,0 +1,26 @@
+// Description:
+//    Programme de tests sur class et methodes (sur le theme du golf)
+//
+// Resultats:
+//       affiche 3
+//
+// Historique:
+//    cree le 01/01/2025
+
+class firstClass {
+    int x;
+
+    firstClass(int b){
+        this.x = b;
+    }
+
+    int getX(){
+        return this.x;
+    }
+
+}
+
+{
+    firstClass b = new firstClass(3);
+    println(b.getX());
+}

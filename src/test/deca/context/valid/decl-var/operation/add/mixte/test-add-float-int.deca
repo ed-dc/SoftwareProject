@@ -1,0 +1,18 @@
+// Description:
+//    Programme minimaliste initialisant une variable avec un +
+//
+// Resultats: 2.49000e+01; 1.99000e+01; 19; 2.14000e+01
+// 
+//
+// Historique:
+//    cree le 01/01/2025
+
+{
+    float a = 5.2-0.2;
+    int b = 10+9;
+    float c = 9.9 + 10.0;
+    println(a + c);
+    println(c);
+    println(b);
+    println(a + b);
+}

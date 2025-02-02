@@ -1,0 +1,10 @@
+; start main program
+; Main program
+; Beginning of main instructions:
+	RINT
+	STORE R1, 3(GB)
+	LOAD 3(GB), R1
+	WINT
+	WNL
+	HALT
+; end main program

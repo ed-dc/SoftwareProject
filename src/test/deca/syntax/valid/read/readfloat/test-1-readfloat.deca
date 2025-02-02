@@ -1,0 +1,12 @@
+// Description: 
+// Test de programme lexicalement correct automatisé
+// 
+// Type: readFloat
+//
+
+// Historique: 
+// Tue Jan  6 10:25:48 2025
+
+{
+    print(readFloat());
+}

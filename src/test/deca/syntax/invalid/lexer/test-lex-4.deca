@@ -1,0 +1,14 @@
+// Description:
+//    tests de programme lexicalement Incorrect.
+//
+// Resultats:
+//    Ligne 13 : Erreur de syntaxe. 
+//
+// Historique:
+//    cree le 01/01/2025
+
+{
+    int le_token, suivant;
+    suivant = €;
+    // ne focnitonne pas;
+}

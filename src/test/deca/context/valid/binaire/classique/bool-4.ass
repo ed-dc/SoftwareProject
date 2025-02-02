@@ -1,0 +1,218 @@
+; start main program
+; Main program
+; Beginning of main instructions:
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ uEFalse12
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ uEFalse12
+	STORE R1, 3(GB)
+	BRA uEFin12
+uEFalse12:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+uEFin12:
+	BNE uETrue11
+	LOAD #0, R1
+	CMP #0, R1
+	BNE uETrue11
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA uEFin11
+uETrue11:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+uEFin11:
+	BNE uETrue10
+	LOAD #0, R1
+	CMP #0, R1
+	BNE uETrue10
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA uEFin10
+uETrue10:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+uEFin10:
+	BNE uETrue9
+	LOAD #1, R1
+	CMP #0, R1
+	BNE uETrue9
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA uEFin9
+uETrue9:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+uEFin9:
+	BNE uETrue8
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ uEFalse13
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ uEFalse13
+	STORE R1, 3(GB)
+	BRA uEFin13
+uEFalse13:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+uEFin13:
+	BNE uETrue8
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA uEFin8
+uETrue8:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+uEFin8:
+	BNE uETrue7
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ uEFalse14
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ uEFalse14
+	STORE R1, 3(GB)
+	BRA uEFin14
+uEFalse14:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+uEFin14:
+	BNE uETrue7
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA uEFin7
+uETrue7:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+uEFin7:
+	BNE uETrue6
+	LOAD #1, R1
+	CMP #0, R1
+	BNE uETrue6
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA uEFin6
+uETrue6:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+uEFin6:
+	BNE uETrue5
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ uEFalse15
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ uEFalse15
+	STORE R1, 3(GB)
+	BRA uEFin15
+uEFalse15:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+uEFin15:
+	BNE uETrue5
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA uEFin5
+uETrue5:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+uEFin5:
+	BNE uETrue4
+	LOAD #1, R1
+	CMP #0, R1
+	BNE uETrue4
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA uEFin4
+uETrue4:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+uEFin4:
+	BNE uETrue3
+	LOAD #1, R1
+	CMP #0, R1
+	BNE uETrue3
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA uEFin3
+uETrue3:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+uEFin3:
+	BNE uETrue2
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ uEFalse16
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ uEFalse16
+	STORE R1, 3(GB)
+	BRA uEFin16
+uEFalse16:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+uEFin16:
+	BNE uETrue2
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA uEFin2
+uETrue2:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+uEFin2:
+	BNE uETrue1
+	LOAD #0, R1
+	CMP #0, R1
+	BNE uETrue1
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA uEFin1
+uETrue1:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+uEFin1:
+	BNE uETrue0
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ uEFalse18
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ uEFalse18
+	STORE R1, 3(GB)
+	BRA uEFin18
+uEFalse18:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+uEFin18:
+	BEQ uEFalse17
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ uEFalse17
+	STORE R1, 3(GB)
+	BRA uEFin17
+uEFalse17:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+uEFin17:
+	BNE uETrue0
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA uEFin0
+uETrue0:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+uEFin0:
+	LOAD 3(GB), R1
+	CMP #0, R1
+	BNE uTrue
+uFalse:
+	WSTR "false"
+	BRA uFin
+uTrue:
+	WSTR "true"
+uFin:
+	HALT
+; end main program

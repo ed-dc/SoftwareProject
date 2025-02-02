@@ -1,0 +1,15 @@
+// Description:
+//    tests de programme lexicalement Incorrect.
+//
+// Resultats:
+//    Ligne 15 : Erreur de syntaxe.
+//    Le dernier * / n'a pas de sens
+//
+// Historique:
+//    cree le 01/01/2025
+
+idf _autre_idf
+{
+
+}
+/* un commentaire. */ */

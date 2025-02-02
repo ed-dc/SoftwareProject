@@ -1,0 +1,30 @@
+// Description: 
+// Test de programme lexicalement correct automatisé
+// 
+// Type: bool
+//10
+
+// Historique: 
+// Mon Jan  6 21:25:48 2025
+
+{
+    int a;
+    float b;
+    a = 10;
+    b = 1.5;
+    if (a < b) {
+        print(10);
+    }
+    else
+    {
+        print(1);
+    }
+
+    if (1.34 < 10) {
+        print(10);
+    }
+    else
+    {
+        print(1);
+    }
+}

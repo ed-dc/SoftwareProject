@@ -1,0 +1,61 @@
+; start main program
+; Main program
+; Beginning of main instructions:
+	LOAD #4, R2
+	STORE R2, 3(GB)
+	LOAD #4, R2
+	LOAD #4, R1
+	CMP R2, R1
+	BNE EGALFalse0
+	LOAD #1, R2
+	BRA EGALFin0
+EGALFalse0:
+	LOAD #0, R2
+EGALFin0:
+	STORE R2, 4(GB)
+	LOAD #0, R2
+	STORE R2, 5(GB)
+	LOAD 3(GB), R2
+	LOAD R2, R1
+	CMP #2, R1
+	BGT GreaterTrue1
+	LOAD #0, R2
+	BRA GreaterFin1
+GreaterTrue1:
+	LOAD #1, R2
+GreaterFin1:
+	CMP #0, R2
+	BEQ E_sinon0
+	LOAD #1, R1
+	WINT
+	WNL
+	BRA E_fin0
+E_sinon0:
+	BRA E_sinon1
+	LOAD #6, R1
+	WINT
+	WNL
+	BRA E_fin0
+E_sinon1:
+	LOAD #2, R2
+	LOAD #2, R1
+	CMP R2, R1
+	BNE EGALFalse2
+	LOAD #1, R2
+	BRA EGALFin2
+EGALFalse2:
+	LOAD #0, R2
+EGALFin2:
+	CMP #0, R2
+	BEQ E_sinon2
+	LOAD #4, R1
+	WINT
+	WNL
+	BRA E_fin0
+E_sinon2:
+	LOAD #2, R1
+	WINT
+	WNL
+E_fin0:
+	HALT
+; end main program

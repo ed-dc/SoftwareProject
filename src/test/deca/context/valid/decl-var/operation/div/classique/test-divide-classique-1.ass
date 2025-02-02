@@ -1,0 +1,23 @@
+; start main program
+; Main program
+; Beginning of main instructions:
+	LOAD #0x1.49999ap3, R2
+	STORE R2, 3(GB)
+	STORE R2, 3(GB)
+	LOAD #2, R2
+	STORE R2, 4(GB)
+	STORE R2, 4(GB)
+	LOAD #0x1.49999ap3, R2
+	FLOAT 4(GB), R3
+	DIV R3, R2
+	LOAD R2, R1
+	WFLOAT
+	WNL
+	LOAD 3(GB), R2
+	FLOAT 4(GB), R3
+	DIV R3, R2
+	LOAD R2, R1
+	WFLOAT
+	WNL
+	HALT
+; end main program

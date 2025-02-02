@@ -1,0 +1,511 @@
+; start main program
+; Main program
+; Beginning of main instructions:
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ rEFalse25
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ rEFalse25
+	STORE R1, 3(GB)
+	BRA rEFin25
+rEFalse25:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+rEFin25:
+	BNE rETrue24
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ rEFalse26
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ rEFalse26
+	STORE R1, 3(GB)
+	BRA rEFin26
+rEFalse26:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+rEFin26:
+	BNE rETrue24
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin24
+rETrue24:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin24:
+	BNE rETrue23
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ rEFalse27
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ rEFalse27
+	STORE R1, 3(GB)
+	BRA rEFin27
+rEFalse27:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+rEFin27:
+	BNE rETrue23
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin23
+rETrue23:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin23:
+	BNE rETrue22
+	LOAD #1, R1
+	CMP #0, R1
+	BNE rETrue22
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin22
+rETrue22:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin22:
+	BNE rETrue21
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ rEFalse28
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ rEFalse28
+	STORE R1, 3(GB)
+	BRA rEFin28
+rEFalse28:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+rEFin28:
+	BNE rETrue21
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin21
+rETrue21:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin21:
+	BNE rETrue20
+	LOAD #0, R1
+	CMP #0, R1
+	BNE rETrue20
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin20
+rETrue20:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin20:
+	BNE rETrue19
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ rEFalse29
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ rEFalse29
+	STORE R1, 3(GB)
+	BRA rEFin29
+rEFalse29:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+rEFin29:
+	BNE rETrue19
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin19
+rETrue19:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin19:
+	BNE rETrue18
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ rEFalse31
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ rEFalse31
+	STORE R1, 3(GB)
+	BRA rEFin31
+rEFalse31:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+rEFin31:
+	BEQ rEFalse30
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ rEFalse30
+	STORE R1, 3(GB)
+	BRA rEFin30
+rEFalse30:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+rEFin30:
+	BNE rETrue18
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin18
+rETrue18:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin18:
+	BNE rETrue17
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ rEFalse36
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ rEFalse36
+	STORE R1, 3(GB)
+	BRA rEFin36
+rEFalse36:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+rEFin36:
+	BEQ rEFalse35
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ rEFalse35
+	STORE R1, 3(GB)
+	BRA rEFin35
+rEFalse35:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+rEFin35:
+	BEQ rEFalse34
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ rEFalse34
+	STORE R1, 3(GB)
+	BRA rEFin34
+rEFalse34:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+rEFin34:
+	BEQ rEFalse33
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ rEFalse33
+	STORE R1, 3(GB)
+	BRA rEFin33
+rEFalse33:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+rEFin33:
+	BEQ rEFalse32
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ rEFalse32
+	STORE R1, 3(GB)
+	BRA rEFin32
+rEFalse32:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+rEFin32:
+	BNE rETrue17
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin17
+rETrue17:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin17:
+	BNE rETrue16
+	LOAD #1, R1
+	CMP #0, R1
+	BNE rETrue16
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin16
+rETrue16:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin16:
+	BNE rETrue15
+	LOAD #0, R1
+	CMP #0, R1
+	BNE rETrue15
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin15
+rETrue15:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin15:
+	BNE rETrue14
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ rEFalse37
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ rEFalse37
+	STORE R1, 3(GB)
+	BRA rEFin37
+rEFalse37:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+rEFin37:
+	BNE rETrue14
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin14
+rETrue14:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin14:
+	BNE rETrue13
+	LOAD #1, R1
+	CMP #0, R1
+	BNE rETrue13
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin13
+rETrue13:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin13:
+	BNE rETrue12
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ rEFalse39
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ rEFalse39
+	STORE R1, 3(GB)
+	BRA rEFin39
+rEFalse39:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+rEFin39:
+	BEQ rEFalse38
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ rEFalse38
+	STORE R1, 3(GB)
+	BRA rEFin38
+rEFalse38:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+rEFin38:
+	BNE rETrue12
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin12
+rETrue12:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin12:
+	BNE rETrue11
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ rEFalse41
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ rEFalse41
+	STORE R1, 3(GB)
+	BRA rEFin41
+rEFalse41:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+rEFin41:
+	BEQ rEFalse40
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ rEFalse40
+	STORE R1, 3(GB)
+	BRA rEFin40
+rEFalse40:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+rEFin40:
+	BNE rETrue11
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin11
+rETrue11:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin11:
+	BNE rETrue10
+	LOAD #1, R1
+	CMP #0, R1
+	BNE rETrue10
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin10
+rETrue10:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin10:
+	BNE rETrue9
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ rEFalse43
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ rEFalse43
+	STORE R1, 3(GB)
+	BRA rEFin43
+rEFalse43:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+rEFin43:
+	BEQ rEFalse42
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ rEFalse42
+	STORE R1, 3(GB)
+	BRA rEFin42
+rEFalse42:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+rEFin42:
+	BNE rETrue9
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin9
+rETrue9:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin9:
+	BNE rETrue8
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ rEFalse45
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ rEFalse45
+	STORE R1, 3(GB)
+	BRA rEFin45
+rEFalse45:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+rEFin45:
+	BEQ rEFalse44
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ rEFalse44
+	STORE R1, 3(GB)
+	BRA rEFin44
+rEFalse44:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+rEFin44:
+	BNE rETrue8
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin8
+rETrue8:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin8:
+	BNE rETrue7
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ rEFalse46
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ rEFalse46
+	STORE R1, 3(GB)
+	BRA rEFin46
+rEFalse46:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+rEFin46:
+	BNE rETrue7
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin7
+rETrue7:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin7:
+	BNE rETrue6
+	LOAD #1, R1
+	CMP #0, R1
+	BNE rETrue6
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin6
+rETrue6:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin6:
+	BNE rETrue5
+	LOAD #1, R1
+	CMP #0, R1
+	BNE rETrue5
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin5
+rETrue5:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin5:
+	BNE rETrue4
+	LOAD #1, R1
+	CMP #0, R1
+	BNE rETrue4
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin4
+rETrue4:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin4:
+	BNE rETrue3
+	LOAD #0, R1
+	CMP #0, R1
+	BNE rETrue3
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin3
+rETrue3:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin3:
+	BNE rETrue2
+	LOAD #1, R1
+	CMP #0, R1
+	BNE rETrue2
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin2
+rETrue2:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin2:
+	BNE rETrue1
+	LOAD #1, R1
+	CMP #0, R1
+	BNE rETrue1
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin1
+rETrue1:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin1:
+	BNE rETrue0
+	LOAD #0, R1
+	CMP #0, R1
+	BNE rETrue0
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA rEFin0
+rETrue0:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+rEFin0:
+	LOAD 3(GB), R1
+	CMP #0, R1
+	BNE rTrue
+rFalse:
+	WSTR "false"
+	BRA rFin
+rTrue:
+	WSTR "true"
+rFin:
+	HALT
+; end main program

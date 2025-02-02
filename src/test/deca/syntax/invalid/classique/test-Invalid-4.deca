@@ -1,0 +1,15 @@
+// Description:
+//    tests de programme lexicalement Incorrect.
+//
+// Resultats:
+//    Ligne 13 : Erreur de syntaxe.
+//    Pas possible de commencer par un ( dans une expression
+//
+// Historique:
+//    cree le 01/01/2025
+
+
+idf _autre_idf
+(
+
+)

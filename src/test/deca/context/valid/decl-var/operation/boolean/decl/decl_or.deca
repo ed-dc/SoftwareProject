@@ -1,0 +1,13 @@
+// Description:
+//    Programme minimaliste initialisant une variable avec un and
+//
+// Resultats:
+//    true
+//
+// Historique:
+//    cree le 01/01/2025
+
+{
+        boolean a = true || false;
+        println(a);
+}

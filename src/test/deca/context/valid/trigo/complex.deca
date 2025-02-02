@@ -1,0 +1,15 @@
+// Description:
+//    Programme minimaliste sur les fonctions de trigonometrie
+//
+// Resultats:
+//    
+//
+// Historique:
+//    cree le 01/01/2025
+
+{
+        float x = sin(5);
+        float y = cos(5) + tan(5);
+        float z = asin(5 + x) + asin(5 + y);
+        z = tan(z) + asin(z);
+}

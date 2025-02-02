@@ -1,0 +1,17 @@
+// Description:
+//    Programme minimaliste utilisant println sur un int en hexa.
+//
+// Resultats:
+//    1.0E9
+//    4.184
+//    1.234
+//
+// Historique:
+//    cree le 01/01/2025
+
+{
+        println(0.1E10);
+        println(4.184f);
+        println(1.234F);
+
+}

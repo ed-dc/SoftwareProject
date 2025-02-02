@@ -1,0 +1,14 @@
+; start main program
+; Main program
+; Beginning of main instructions:
+	LOAD #0x1.dcd65p29, R1
+	WFLOAT
+	WNL
+	LOAD #0x1.0bc6a8p2, R1
+	WFLOAT
+	WNL
+	LOAD #0x1.3be76cp0, R1
+	WFLOAT
+	WNL
+	HALT
+; end main program

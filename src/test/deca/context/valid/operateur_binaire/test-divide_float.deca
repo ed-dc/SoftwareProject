@@ -1,0 +1,15 @@
+// Description:
+//    Programme minimaliste initialisant une variable avec un +
+//
+// Resultats: 
+//    passe pas pour l'instant
+//
+// Historique:
+//    cree le 01/01/2025
+
+{
+    float x = 10.2;
+    float y = 2.10;
+    float z = x / y ;
+    print(y);   
+}   

@@ -1,0 +1,14 @@
+// Description:
+//    Test de base pour le main
+//
+// Resultats:
+//    3.0
+// 
+// Historique:
+//    cree le 09/01/2025
+
+{
+    float y = 3.0;
+    
+    println(y);
+}

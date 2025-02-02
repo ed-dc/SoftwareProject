@@ -1,0 +1,12 @@
+// Description:
+//    Programme test boolean automatique
+//
+// Resultats:	true
+//
+// Historique:
+//    cree le 12/01/2025
+
+{
+	boolean u = true && true || false || false || true || !false && !true || true && true || !false || true && !false || true || true || false && false || !true || false && false && true;
+	print(u);
+}

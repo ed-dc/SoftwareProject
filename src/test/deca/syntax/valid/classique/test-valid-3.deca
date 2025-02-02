@@ -1,0 +1,12 @@
+// Description:
+//    Test sur les classes
+//
+// Resultats:
+//    aucune sortie
+// 
+// Historique:
+//    cree le 01/01/2025
+
+class A {
+    int x = 1;
+}

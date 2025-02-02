@@ -1,0 +1,16 @@
+// Description: 
+// Test de programme lexicalement correct automatisé
+// 
+// Type: addition
+//10
+
+// Historique: 
+// Mon Jan  6 15:20:48 2025
+
+{
+    int a, b, c;
+    a = 4;
+    b = 6;
+    c = a + b;
+    print(c);
+}

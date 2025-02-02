@@ -1,0 +1,39 @@
+; start main program
+; Main program
+; Beginning of main instructions:
+<<<<<<< HEAD:src/test/deca/context/valid/decl-var/bool-decl.ass
+	LOAD #0, R2
+	STORE R2, 3(GB)
+	LOAD 4(GB), R2
+
+	LOAD 3(GB), R2
+=======
+	LOAD #1, R2
+	LOAD #1, R2
+	STORE R2, 3(GB)
+	LOAD #0, R2
+	LOAD #0, R2
+>>>>>>> if-then-else:src/test/deca/context/valid/decl-var/operation/boolean/decl/bool-decl.ass
+	STORE R2, 4(GB)
+	LOAD 3(GB), R1
+	CMP #0, R1
+	BNE aTrue
+aFalse:
+	WSTR "false"
+	BRA aFin
+aTrue:
+	WSTR "true"
+aFin:
+	WNL
+	LOAD 4(GB), R1
+	CMP #0, R1
+	BNE bTrue
+bFalse:
+	WSTR "false"
+	BRA bFin
+bTrue:
+	WSTR "true"
+bFin:
+	WNL
+	HALT
+; end main program

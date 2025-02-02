@@ -1,0 +1,31 @@
+; start main program
+; Main program
+; Beginning of main instructions:
+	LOAD #0, R2
+	STORE R2, 3(GB)
+
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ aEFalse0
+	STORE R1, 3(GB)
+	BRA aEFin0
+	LOAD 3(GB), R0
+	CMP #0, R0
+	BEQ aEFalse0
+	STORE R1, 3(GB)
+	BRA aEFin0
+aEFalse0:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+aEFin0:
+	LOAD 3(GB), R1
+	CMP #0, R1
+	BNE aTrue
+aFalse:
+	WSTR "false"
+	BRA aFin
+aTrue:
+	WSTR "true"
+aFin:
+	HALT
+; end main program

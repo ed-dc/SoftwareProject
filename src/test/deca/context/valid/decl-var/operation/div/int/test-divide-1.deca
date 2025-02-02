@@ -1,0 +1,15 @@
+// Description:
+//    Programme minimaliste initialisant une variable avec un +
+//
+// Resultats: 
+//    5
+//
+// Historique:
+//    cree le 01/01/20
+{
+    int x = 10;
+    int y = 2;
+    int z = x / y ;
+    print(10/2);   
+    print(z);
+}   

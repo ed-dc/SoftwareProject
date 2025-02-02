@@ -1,0 +1,121 @@
+; start main program
+; Main program
+; Beginning of main instructions:
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ mEFalse5
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ mEFalse5
+	STORE R1, 3(GB)
+	BRA mEFin5
+mEFalse5:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+mEFin5:
+	BNE mETrue4
+	LOAD #1, R1
+	CMP #0, R1
+	BNE mETrue4
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA mEFin4
+mETrue4:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+mEFin4:
+	BNE mETrue3
+	LOAD #1, R1
+	CMP #0, R1
+	BNE mETrue3
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA mEFin3
+mETrue3:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+mEFin3:
+	BNE mETrue2
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ mEFalse6
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ mEFalse6
+	STORE R1, 3(GB)
+	BRA mEFin6
+mEFalse6:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+mEFin6:
+	BNE mETrue2
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA mEFin2
+mETrue2:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+mEFin2:
+	BNE mETrue1
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ mEFalse9
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ mEFalse9
+	STORE R1, 3(GB)
+	BRA mEFin9
+mEFalse9:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+mEFin9:
+	BEQ mEFalse8
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ mEFalse8
+	STORE R1, 3(GB)
+	BRA mEFin8
+mEFalse8:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+mEFin8:
+	BEQ mEFalse7
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ mEFalse7
+	STORE R1, 3(GB)
+	BRA mEFin7
+mEFalse7:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+mEFin7:
+	BNE mETrue1
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA mEFin1
+mETrue1:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+mEFin1:
+	BNE mETrue0
+	LOAD #0, R1
+	CMP #0, R1
+	BNE mETrue0
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA mEFin0
+mETrue0:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+mEFin0:
+	LOAD 3(GB), R1
+	CMP #0, R1
+	BNE mTrue
+mFalse:
+	WSTR "false"
+	BRA mFin
+mTrue:
+	WSTR "true"
+mFin:
+	HALT
+; end main program

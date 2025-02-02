@@ -1,0 +1,344 @@
+; start main program
+; Main program
+; Beginning of main instructions:
+	LOAD #1, R1
+	CMP #0, R1
+	BNE tETrue17
+	LOAD #1, R1
+	CMP #0, R1
+	BNE tETrue17
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA tEFin17
+tETrue17:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+tEFin17:
+	BNE tETrue16
+	LOAD #0, R1
+	CMP #0, R1
+	BNE tETrue16
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA tEFin16
+tETrue16:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+tEFin16:
+	BNE tETrue15
+	LOAD #1, R1
+	CMP #0, R1
+	BNE tETrue15
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA tEFin15
+tETrue15:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+tEFin15:
+	BNE tETrue14
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ tEFalse19
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ tEFalse19
+	STORE R1, 3(GB)
+	BRA tEFin19
+tEFalse19:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+tEFin19:
+	BEQ tEFalse18
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ tEFalse18
+	STORE R1, 3(GB)
+	BRA tEFin18
+tEFalse18:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+tEFin18:
+	BNE tETrue14
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA tEFin14
+tETrue14:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+tEFin14:
+	BNE tETrue13
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ tEFalse21
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ tEFalse21
+	STORE R1, 3(GB)
+	BRA tEFin21
+tEFalse21:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+tEFin21:
+	BEQ tEFalse20
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ tEFalse20
+	STORE R1, 3(GB)
+	BRA tEFin20
+tEFalse20:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+tEFin20:
+	BNE tETrue13
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA tEFin13
+tETrue13:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+tEFin13:
+	BNE tETrue12
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ tEFalse23
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ tEFalse23
+	STORE R1, 3(GB)
+	BRA tEFin23
+tEFalse23:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+tEFin23:
+	BEQ tEFalse22
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ tEFalse22
+	STORE R1, 3(GB)
+	BRA tEFin22
+tEFalse22:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+tEFin22:
+	BNE tETrue12
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA tEFin12
+tETrue12:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+tEFin12:
+	BNE tETrue11
+	LOAD #1, R1
+	CMP #0, R1
+	BNE tETrue11
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA tEFin11
+tETrue11:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+tEFin11:
+	BNE tETrue10
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ tEFalse24
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ tEFalse24
+	STORE R1, 3(GB)
+	BRA tEFin24
+tEFalse24:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+tEFin24:
+	BNE tETrue10
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA tEFin10
+tETrue10:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+tEFin10:
+	BNE tETrue9
+	LOAD #0, R1
+	CMP #0, R1
+	BNE tETrue9
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA tEFin9
+tETrue9:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+tEFin9:
+	BNE tETrue8
+	LOAD #1, R1
+	CMP #0, R1
+	BNE tETrue8
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA tEFin8
+tETrue8:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+tEFin8:
+	BNE tETrue7
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ tEFalse25
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ tEFalse25
+	STORE R1, 3(GB)
+	BRA tEFin25
+tEFalse25:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+tEFin25:
+	BNE tETrue7
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA tEFin7
+tETrue7:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+tEFin7:
+	BNE tETrue6
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ tEFalse26
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ tEFalse26
+	STORE R1, 3(GB)
+	BRA tEFin26
+tEFalse26:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+tEFin26:
+	BNE tETrue6
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA tEFin6
+tETrue6:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+tEFin6:
+	BNE tETrue5
+	LOAD #1, R1
+	CMP #0, R1
+	BNE tETrue5
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA tEFin5
+tETrue5:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+tEFin5:
+	BNE tETrue4
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ tEFalse28
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ tEFalse28
+	STORE R1, 3(GB)
+	BRA tEFin28
+tEFalse28:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+tEFin28:
+	BEQ tEFalse27
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ tEFalse27
+	STORE R1, 3(GB)
+	BRA tEFin27
+tEFalse27:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+tEFin27:
+	BNE tETrue4
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA tEFin4
+tETrue4:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+tEFin4:
+	BNE tETrue3
+	LOAD #1, R1
+	CMP #0, R1
+	BNE tETrue3
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA tEFin3
+tETrue3:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+tEFin3:
+	BNE tETrue2
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ tEFalse29
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ tEFalse29
+	STORE R1, 3(GB)
+	BRA tEFin29
+tEFalse29:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+tEFin29:
+	BNE tETrue2
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA tEFin2
+tETrue2:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+tEFin2:
+	BNE tETrue1
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ tEFalse30
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ tEFalse30
+	STORE R1, 3(GB)
+	BRA tEFin30
+tEFalse30:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+tEFin30:
+	BNE tETrue1
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA tEFin1
+tETrue1:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+tEFin1:
+	BNE tETrue0
+	LOAD #0, R1
+	CMP #0, R1
+	BNE tETrue0
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA tEFin0
+tETrue0:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+tEFin0:
+	LOAD 3(GB), R1
+	CMP #0, R1
+	BNE tTrue
+tFalse:
+	WSTR "false"
+	BRA tFin
+tTrue:
+	WSTR "true"
+tFin:
+	HALT
+; end main program

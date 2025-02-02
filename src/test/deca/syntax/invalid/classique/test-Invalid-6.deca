@@ -1,0 +1,13 @@
+// Description:
+//    tests de programme lexicalement Incorrect.
+//
+// Resultats:
+//    Ligne 12 : Erreur de syntaxe.
+//    On ne peut pas écreire NUM FLOAT x = 1
+//
+// Historique:
+//    cree le 01/01/2025
+
+{
+    NUM FLOAT x = 1; // Need a semicolon
+}

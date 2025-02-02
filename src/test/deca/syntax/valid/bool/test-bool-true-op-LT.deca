@@ -1,0 +1,13 @@
+// Description:
+//    Test sur les booleans
+//
+// Resultats:
+//    affiche true
+// 
+// Historique:
+//    cree le 01/01/2025
+
+{
+    boolean a = 4 < 5;
+    println(a);
+}

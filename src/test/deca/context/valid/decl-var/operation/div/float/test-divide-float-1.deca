@@ -1,0 +1,15 @@
+// Description:
+//    Programme minimaliste initialisant une variable avec un +
+//
+// Resultats: 4.29166, 4.29166
+//
+//
+// Historique:
+//    cree le 01/01/20
+{
+    float x = 10.3;
+    float y = 2.4;
+    float z = x / y ;
+    println(10.3/2.4);   
+    println(z);
+}   

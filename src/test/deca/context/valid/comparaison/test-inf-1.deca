@@ -1,0 +1,21 @@
+// Description:
+//    Programme minimaliste initialisant une variable avec un 
+//
+// Resultats: false
+//    
+//
+// Historique:
+//    cree le 01/01/2025
+
+{
+    boolean a;
+    if (5.2 < 0.2)
+    {
+        a = true;
+    }
+    else
+    {
+        a = false;
+    }
+    println(a);
+}

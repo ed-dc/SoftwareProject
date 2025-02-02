@@ -1,0 +1,19 @@
+// Description:
+//    Programme de tests sur class et extends
+//
+// Resultats:
+//       Rien 
+//
+// Historique:
+//    cree le 01/01/2025
+
+
+class B {
+    int x = 1;
+}
+
+class A extends B{
+    int y = 2;
+}
+
+

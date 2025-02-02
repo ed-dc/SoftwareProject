@@ -1,0 +1,10 @@
+; start main program
+; Main program
+; Beginning of main instructions:
+	LOAD #0x1.133334p2, R2
+	STORE R2, 3(GB)
+	LOAD 3(GB), R1
+	WFLOATX
+	WNL
+	HALT
+; end main program

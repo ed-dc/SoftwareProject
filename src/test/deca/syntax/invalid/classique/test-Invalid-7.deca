@@ -1,0 +1,20 @@
+// Description:
+//    tests de programme lexicalement Incorrect.
+//
+// Resultats:
+//    Ligne 14 : Erreur de syntaxe.
+//    On ne peut pas écrire n'importe quoi sur le golf sans commentaire
+//
+// Historique:
+//    cree le 01/01/2025
+
+{
+    NUM x = 1; // Need a semicolon
+     ---
+    (   )
+     ---======================)_____  ___ ____ ____ 
+     ---======================)
+    (   )
+     ---
+      
+}

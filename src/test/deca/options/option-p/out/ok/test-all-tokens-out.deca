@@ -1,0 +1,50 @@
+{
+	int a;
+	int b;
+	int z;
+	int y;
+	int x;
+	boolean c;
+	float d;
+	string e;
+	string f;
+	(a = 1);
+	(b = 245453242);
+	(c = true);
+	(d = 13434.454);
+	(e = "Hello World");
+	(f = "coucou");
+	(z = (a / b));
+	(y = (a % b));
+	(x = (a * b));
+	while ((a < b)) {
+		(c = !c);
+		(a = (a + 1));
+		(d = -d);
+	}
+	if (c) { 
+(e = (e + f));
+	} else { 
+(e = ((e + " ") + f));
+	} 
+	if ((a == b)) { 
+println("a == b");
+	} else { 
+if ((a < b)) { 
+println("a < b");
+		} else { 
+println("a > b");
+		} 
+	} 
+	println(a);
+	println(b);
+	println(c);
+	println(d);
+	println(e);
+	println(f);
+	print(z);
+	print(" -> ");
+	printx(y);
+	print(" -> ");
+	printlnx(x);
+}

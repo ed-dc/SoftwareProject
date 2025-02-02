@@ -1,0 +1,511 @@
+; start main program
+; Main program
+; Beginning of main instructions:
+	LOAD #0, R1
+	CMP #0, R1
+	BNE kETrue24
+	LOAD #1, R1
+	CMP #0, R1
+	BNE kETrue24
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin24
+kETrue24:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin24:
+	BNE kETrue23
+	LOAD #0, R1
+	CMP #0, R1
+	BNE kETrue23
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin23
+kETrue23:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin23:
+	BNE kETrue22
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ kEFalse26
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ kEFalse26
+	STORE R1, 3(GB)
+	BRA kEFin26
+kEFalse26:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+kEFin26:
+	BEQ kEFalse25
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ kEFalse25
+	STORE R1, 3(GB)
+	BRA kEFin25
+kEFalse25:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+kEFin25:
+	BNE kETrue22
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin22
+kETrue22:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin22:
+	BNE kETrue21
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ kEFalse28
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ kEFalse28
+	STORE R1, 3(GB)
+	BRA kEFin28
+kEFalse28:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+kEFin28:
+	BEQ kEFalse27
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ kEFalse27
+	STORE R1, 3(GB)
+	BRA kEFin27
+kEFalse27:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+kEFin27:
+	BNE kETrue21
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin21
+kETrue21:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin21:
+	BNE kETrue20
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ kEFalse33
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ kEFalse33
+	STORE R1, 3(GB)
+	BRA kEFin33
+kEFalse33:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+kEFin33:
+	BEQ kEFalse32
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ kEFalse32
+	STORE R1, 3(GB)
+	BRA kEFin32
+kEFalse32:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+kEFin32:
+	BEQ kEFalse31
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ kEFalse31
+	STORE R1, 3(GB)
+	BRA kEFin31
+kEFalse31:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+kEFin31:
+	BEQ kEFalse30
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ kEFalse30
+	STORE R1, 3(GB)
+	BRA kEFin30
+kEFalse30:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+kEFin30:
+	BEQ kEFalse29
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ kEFalse29
+	STORE R1, 3(GB)
+	BRA kEFin29
+kEFalse29:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+kEFin29:
+	BNE kETrue20
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin20
+kETrue20:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin20:
+	BNE kETrue19
+	LOAD #0, R1
+	CMP #0, R1
+	BNE kETrue19
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin19
+kETrue19:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin19:
+	BNE kETrue18
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ kEFalse34
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ kEFalse34
+	STORE R1, 3(GB)
+	BRA kEFin34
+kEFalse34:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+kEFin34:
+	BNE kETrue18
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin18
+kETrue18:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin18:
+	BNE kETrue17
+	LOAD #0, R1
+	CMP #0, R1
+	BNE kETrue17
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin17
+kETrue17:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin17:
+	BNE kETrue16
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ kEFalse40
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ kEFalse40
+	STORE R1, 3(GB)
+	BRA kEFin40
+kEFalse40:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+kEFin40:
+	BEQ kEFalse39
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ kEFalse39
+	STORE R1, 3(GB)
+	BRA kEFin39
+kEFalse39:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+kEFin39:
+	BEQ kEFalse38
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ kEFalse38
+	STORE R1, 3(GB)
+	BRA kEFin38
+kEFalse38:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+kEFin38:
+	BEQ kEFalse37
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ kEFalse37
+	STORE R1, 3(GB)
+	BRA kEFin37
+kEFalse37:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+kEFin37:
+	BEQ kEFalse36
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ kEFalse36
+	STORE R1, 3(GB)
+	BRA kEFin36
+kEFalse36:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+kEFin36:
+	BEQ kEFalse35
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ kEFalse35
+	STORE R1, 3(GB)
+	BRA kEFin35
+kEFalse35:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+kEFin35:
+	BNE kETrue16
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin16
+kETrue16:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin16:
+	BNE kETrue15
+	LOAD #1, R1
+	CMP #0, R1
+	BNE kETrue15
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin15
+kETrue15:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin15:
+	BNE kETrue14
+	LOAD #0, R1
+	CMP #0, R1
+	BNE kETrue14
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin14
+kETrue14:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin14:
+	BNE kETrue13
+	LOAD #0, R1
+	CMP #0, R1
+	BNE kETrue13
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin13
+kETrue13:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin13:
+	BNE kETrue12
+	LOAD #0, R1
+	CMP #0, R1
+	BNE kETrue12
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin12
+kETrue12:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin12:
+	BNE kETrue11
+	LOAD #1, R1
+	CMP #0, R1
+	BNE kETrue11
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin11
+kETrue11:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin11:
+	BNE kETrue10
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ kEFalse41
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ kEFalse41
+	STORE R1, 3(GB)
+	BRA kEFin41
+kEFalse41:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+kEFin41:
+	BNE kETrue10
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin10
+kETrue10:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin10:
+	BNE kETrue9
+	LOAD #0, R1
+	CMP #0, R1
+	BNE kETrue9
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin9
+kETrue9:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin9:
+	BNE kETrue8
+	LOAD #1, R1
+	CMP #0, R1
+	BNE kETrue8
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin8
+kETrue8:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin8:
+	BNE kETrue7
+	LOAD #0, R1
+	CMP #0, R1
+	BNE kETrue7
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin7
+kETrue7:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin7:
+	BNE kETrue6
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ kEFalse42
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ kEFalse42
+	STORE R1, 3(GB)
+	BRA kEFin42
+kEFalse42:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+kEFin42:
+	BNE kETrue6
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin6
+kETrue6:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin6:
+	BNE kETrue5
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ kEFalse43
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ kEFalse43
+	STORE R1, 3(GB)
+	BRA kEFin43
+kEFalse43:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+kEFin43:
+	BNE kETrue5
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin5
+kETrue5:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin5:
+	BNE kETrue4
+	LOAD #0, R1
+	CMP #0, R1
+	BNE kETrue4
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin4
+kETrue4:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin4:
+	BNE kETrue3
+	LOAD #1, R1
+	CMP #0, R1
+	BNE kETrue3
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin3
+kETrue3:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin3:
+	BNE kETrue2
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ kEFalse44
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ kEFalse44
+	STORE R1, 3(GB)
+	BRA kEFin44
+kEFalse44:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+kEFin44:
+	BNE kETrue2
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin2
+kETrue2:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin2:
+	BNE kETrue1
+	LOAD #1, R1
+	CMP #0, R1
+	BNE kETrue1
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin1
+kETrue1:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin1:
+	BNE kETrue0
+	LOAD #0, R1
+	CMP #0, R1
+	BEQ kEFalse46
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ kEFalse46
+	STORE R1, 3(GB)
+	BRA kEFin46
+kEFalse46:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+kEFin46:
+	BEQ kEFalse45
+	LOAD #1, R1
+	CMP #0, R1
+	BEQ kEFalse45
+	STORE R1, 3(GB)
+	BRA kEFin45
+kEFalse45:
+	LOAD #0, R1
+	STORE R1, 3(GB)
+kEFin45:
+	BNE kETrue0
+	LOAD #0, R1
+	STORE R1, 3(GB)
+	BRA kEFin0
+kETrue0:
+	LOAD #1, R1
+	STORE R1, 3(GB)
+kEFin0:
+	LOAD 3(GB), R1
+	CMP #0, R1
+	BNE kTrue
+kFalse:
+	WSTR "false"
+	BRA kFin
+kTrue:
+	WSTR "true"
+kFin:
+	HALT
+; end main program

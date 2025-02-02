@@ -1,0 +1,22 @@
+// Description:
+//    Programme pour le test de l'option -p : test if
+//
+// Resultats: true
+//    
+//
+// Historique:
+//    cree le 11/01/2025
+
+{
+    int a = 1;
+    int b = 2;
+    boolean c;
+    if ( a < b ) {
+        c = true;
+    }
+    else {
+        c = false;
+    }
+    print(c);
+
+}

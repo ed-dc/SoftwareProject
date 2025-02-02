@@ -1,0 +1,12 @@
+// Description:
+//    Test sur les booleans
+//
+// Resultats:
+//    affiche une erreur car ne doit pas reconnaitre truefalse mais doit reconnaitre un ident
+// 
+// Historique:
+//    cree le 01/01/2025
+
+{
+    println(truefalse);
+}

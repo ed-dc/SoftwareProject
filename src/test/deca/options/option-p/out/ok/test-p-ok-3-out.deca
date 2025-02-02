@@ -1,0 +1,11 @@
+{
+	int a = 1;
+	int b = 2;
+	boolean c;
+	if ((a < b)) { 
+(c = true);
+	} else { 
+(c = false);
+	} 
+	print(c);
+}

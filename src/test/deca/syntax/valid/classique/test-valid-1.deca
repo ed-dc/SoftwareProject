@@ -1,0 +1,15 @@
+// Description:
+//    Test sur les calculs
+//
+// Resultats:
+//    affiche 8 
+// 
+// Historique:
+//    cree le 01/01/2025
+
+{
+    int y = 3;
+    int x = 2* (y+1);
+    println(x);
+
+}

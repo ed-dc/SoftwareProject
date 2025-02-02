@@ -1,0 +1,15 @@
+// Description:
+//    Programme minimaliste initialisant une variable avec un +
+//
+// Resultats:
+//    true
+//
+// Historique:
+//    cree le 01/01/2025
+
+{
+
+    boolean a = false;
+    a = true || a;
+    print(a);
+}   

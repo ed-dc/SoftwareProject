@@ -1,0 +1,16 @@
+// Description: 
+// Test d'une boucle while
+// 
+// Type: while
+// 
+
+// Historique: 
+// Mon Jan  9 13:30:00 2025
+
+{
+    int x = 0;
+    while(x < 10) {
+        print(x);
+        x = x + 1;
+    }
+}

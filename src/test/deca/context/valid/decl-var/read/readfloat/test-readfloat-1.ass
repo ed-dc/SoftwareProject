@@ -1,0 +1,11 @@
+; start main program
+; Main program
+; Beginning of main instructions:
+	LOAD 3(GB), R2
+
+	RFLOAT
+	STORE R1, 3(GB)
+	LOAD 3(GB), R1
+	WFLOAT
+	HALT
+; end main program

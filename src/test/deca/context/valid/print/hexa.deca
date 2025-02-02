@@ -1,0 +1,17 @@
+// Description:
+//    Programme minimaliste utilisant println sur un int en hexa.
+//
+// Resultats:
+//    a
+//    ef
+//    10
+//
+// Historique:
+//    cree le 01/01/2025
+
+{
+        printlnx(10);
+        printx(14);
+        printlnx(15);
+        printx(16);
+}
